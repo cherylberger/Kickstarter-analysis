@@ -1,2 +1,2 @@
-# Kickstarter-analysis
-An analysis of the Kickstarter data
+# An Analysis of Kickstarter Campaigns for Louse
+An analysis of the Kickstarter Campaigns
