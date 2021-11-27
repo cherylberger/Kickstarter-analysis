@@ -10,7 +10,7 @@
 
 ![image](https://user-images.githubusercontent.com/94234511/143689735-a4c2200b-4bb4-47cc-a871-b61e05f0ef51.png)
 
-    [^note:    Figure 1: Add "Years" Column & Calculate Year of Launch]
+    ^Figure 1: Add "Years" Column & Calculate Year of Launch
 ####   *Create a Pivot Table in a new worksheet ‘Theater Outcomes by Launch Date’* 
 The amount of information in the dataset is significant and it is difficult to visualize any relationships by reviewing the entire table.   The Pivot table function in Excel can be used to select and filter specific data into smaller tables to make analysis easier to present and describe.  After highlighting the Kickstarter worksheet, insert a Pivot table comparing the campaign outcomes to the launch date as shown in Figure 2. 
 
