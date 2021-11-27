@@ -49,8 +49,26 @@ Finally, filter the columns to remove “live” campaigns and sort the column i
 A line chart was created to visualize the data and placed next to the pivot table on the same worksheet. The title ‘Theatre Outcomes by Launch Date” was added to the chart and the pivot table fields were hidden.  After a few finishing touches, the line chart will appear as shown in Figure 8. 
 
 ![image](https://user-images.githubusercontent.com/94234511/143690686-5682ff5e-bc9b-49ce-8f35-15ab32f556fb.png)
+
     [^Figure 8: Line Chart - Theatre Outcomes by Launch Date]
     
 If Louise is looking to compare outcomes for other types of fundraising campaigns this would be a quick way to provide additional analysis without creating a new pivot table.  Similarly, Louise campaign outcomes could be filtered by other date ranges to determine if there have been trends in campaigns over time.  
 ###   **Analysis of Outcomes Based on Goals**
 Given the speed of Louise’s fundraising success, it may be interesting to see if a relationship between the fiscal goal and campaign outcome exists.  From the Kickstarter data file, the goal amount for each campaign can be seen in column D, the values range from $1.00 to $100,000.00.  This is a large range of values that could be grouped to summarize and make the data easier to visualize and interpret.  
+####   *Create New worksheet & Define Goal Ranges*
+A new worksheet was added and the sheet labeled Outcomes Based on Goals.  A series of ranges was defined and added to column A as illustrated in Figure 9 below.  
+![image](https://user-images.githubusercontent.com/94234511/143690806-63fbfa2a-3de0-48ae-a46f-7b9703ee4206.png)
+
+    [Figure 9: A series of ranges of goal amounts]
+    
+Expand the table by creating header rows in cells B1 to D1 containing the values “Number Successful”, “Number Failed”, Number Canceled”.  Since the fundraising goal is expected to be based on financial need for each campaign event, the data for this analysis will be limited to the subcategory “plays”.   
+
+####   *Filter the data using COUNTIF statements*
+Use COUNTIFS to filter the data in the Kickstart worksheet for each goal range, campaign outcome for the subcategory of “Plays”.   The code in example 1 below illustrates the use of Countifs statements to count data that meets multiple conditions.  For the Kickstarter data in this analysis, “outcome” is the only variable, the value for goal (</=$1000) and subcategory “Plays” does not change across the row. 
+**Example 1**
+Number Successful (Cell B2):  
+=COUNTIFS(Kickstarter!$D:$D, "<=1000", Kickstarter!$F:$F,"successful", Kickstarter!$O:$O,"plays")
+Number Failed (Cell C2):
+=COUNTIFS(Kickstarter!$D:$D, "<=1000", Kickstarter!$F:$F,"failed", Kickstarter!$O:$O,"plays")
+Number Canceled (Cell D2): 
+=COUNTIFS(Kickstarter!$D:$D, "<=1000", Kickstarter!$F:$F,"canceled", Kickstarter!$O:$O,"plays")
