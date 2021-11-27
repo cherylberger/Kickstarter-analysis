@@ -69,11 +69,29 @@ Use COUNTIFS to filter the data in the Kickstart worksheet for each goal range, 
 **Example 1**
 
 Number Successful (Cell B2):
-
 =COUNTIFS(Kickstarter!$D:$D, "<=1000", Kickstarter!$F:$F,"successful", Kickstarter!$O:$O,"plays")
+
 Number Failed (Cell C2):
-
 =COUNTIFS(Kickstarter!$D:$D, "<=1000", Kickstarter!$F:$F,"failed", Kickstarter!$O:$O,"plays")
-Number Canceled (Cell D2): 
 
+Number Canceled (Cell D2): 
 =COUNTIFS(Kickstarter!$D:$D, "<=1000", Kickstarter!$F:$F,"canceled", Kickstarter!$O:$O,"plays")
+
+Example 2 illustrates the code used to filter the data for the fundraising goals ranging from $1000 to 4999.  Complete the code until the number successful, number failed and number canceled has been calculated for all rows. 
+
+**Example 2**
+
+Number Successful (Cell B3):
+=COUNTIFS(Kickstarter!$D:$D, ">=1000", Kickstarter!$F:$F,"successful", Kickstarter!$D:$D,"<=4999", Kickstarter!$O:$O, "plays")
+
+Number Failed (Cell C3):
+=COUNTIFS(Kickstarter!$D:$D, ">=1000", Kickstarter!$F:$F,"failed", Kickstarter!$D:$D,"<=4999", Kickstarter!$O:$O, "plays")
+
+Number Canceled (Cell D3):
+=COUNTIFS(Kickstarter!$D:$D, ">=1000", Kickstarter!$F:$F,"canceled", Kickstarter!$D:$D,"<=4999", Kickstarter!$O:$O, "plays")
+
+###   *Calculate the Total Campaigns for each Goal Range*
+Calculate the total number of campaigns (projects) for each goal range.  Label the next column (E) “Total Projects”.   Use the SUM() to calculate the Number of “Total Projects” and paste the formula to the end of the range (E2:E12)
+
+Cell E2:
+=SUM(B2:D2)
