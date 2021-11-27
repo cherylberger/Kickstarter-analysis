@@ -17,3 +17,4 @@ Add the pivot table to a new worksheet titled ‘Theater Outcomes by Launch Date
 To calculate the sum of each outcome by launch date, add the “outcomes filed to the Values area.  The sum of each row and column are automatically calculated and added to the data table.   From the table, we can determine the total number of live, successful, failed and cancelled for all 4114 campaigns from 2009 to 2017.   The summed data can be seen in the upper left of Figure 4.   
 ![image](https://user-images.githubusercontent.com/94234511/143690120-581b411c-42f0-4726-a9dd-e167f83c10cc.png)
 [^note:   Figure 4: Pivot table Outcomes by Year]
+####  *Set grouping and format the display of data* 
