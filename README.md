@@ -10,47 +10,50 @@
 
 ![image](https://user-images.githubusercontent.com/94234511/143689735-a4c2200b-4bb4-47cc-a871-b61e05f0ef51.png)
 
-    Figure 1: Add "Years" Column & Calculate Year of Launch
+    *Figure 1: Add "Years" Column & Calculate Year of Launch*
 ####   *Create a Pivot Table in a new worksheet ‘Theater Outcomes by Launch Date’* 
 The amount of information in the dataset is significant and it is difficult to visualize any relationships by reviewing the entire table.   The Pivot table function in Excel can be used to select and filter specific data into smaller tables to make analysis easier to present and describe.  After highlighting the Kickstarter worksheet, insert a Pivot table comparing the campaign outcomes to the launch date as shown in Figure 2. 
 
 ![image](https://user-images.githubusercontent.com/94234511/143689995-ddb987e4-aa05-48be-b6f2-f5bc7e279695.png)
 
-    [^note:    Figure 2: Pivot Table Theater Outcomes by Launch Date]
+    *Figure 2: Pivot Table Theater Outcomes by Launch Date*
     
 Add the pivot table to a new worksheet titled ‘Theater Outcomes by Launch Date’.  Set the pivot table display by adding  ‘Outcomes’ field to the columns area and the Date Created Conversion field to the rows area, see Figure 3.
 
 ![image](https://user-images.githubusercontent.com/94234511/143690080-80870193-e626-4bbe-8407-85a806673697.png)
 
-    [^note:    Figure 3: Creating the Pivot Table to Compare Outcomes]
+    *Figure 3: Creating the Pivot Table to Compare Outcomes*
     
 To calculate the sum of each outcome by launch date, add the “outcomes filed to the Values area.  The sum of each row and column are automatically calculated and added to the data table.   From the table, we can determine the total number of live, successful, failed and cancelled for all 4114 campaigns from 2009 to 2017.   The summed data can be seen in the upper left of Figure 4.
 
 ![image](https://user-images.githubusercontent.com/94234511/143690120-581b411c-42f0-4726-a9dd-e167f83c10cc.png)
 
-    [^note:   Figure 4: Pivot table Outcomes by Year]
+    *Figure 4: Pivot table Outcomes by Year*
     
 ####  *Set grouping and format the display of data* 
 The data in the rows is grouped by year and then by quarter which may be useful for trending historical campaign performance.  However, to understand if the launch date impacts the ability of the campaign to be success, this grouping is not needed.  The ‘Quarters’ and ‘years2’ fields are removed from the pivot chart area for Rows.   The rows now reflect the month of the year the campaign was launched and the total count of successful, canceled, and failed campaign outcomes are displayed as illustrated in Figure 5 below.
 ![image](https://user-images.githubusercontent.com/94234511/143690560-50a6b364-653a-4986-90d3-c72a17c7e75b.png)
 
-    [^note: Figure 5: Pivot table: Outcomes by Month
+    *Figure 5: Pivot table: Outcomes by Month*
+    
 ####   *Add Filters to the Pivot Table*
 Fundraising outcomes similar to the Fever play campaign are of primary interest to Louise.  The pivot table generated so far contains all campaign types and outcomes.  From the Kickstarter file we can see that plays are a Subcategory of a broader Parent group of theatre campaigns.  After adding a filter to the pivot table, we can compare outcomes for only the “theater” parent category.  Add an additional filter for “Years”, this may be a useful tool for visualizing the results of smaller date ranges.  After adding both filters to the pivot table,  one for parent category and the other for “Years”, a drop-down menu can be seen in the Pivot table as illustrated in Figure 6 below. 
 ![image](https://user-images.githubusercontent.com/94234511/143690612-d7ae44dd-be5a-4fe4-a8dd-358f4b040d80.png)
 
-   [^Figure 6: Filtered Pivot Table]
+   *Figure 6: Filtered Pivot Table*
    
 Finally, filter the columns to remove “live” campaigns and sort the column in descending order.  Now, the data for successful campaign outcomes are displayed first in each row.  When the number of successful campaigns is compared to the total, most outcomes were successful. This data will be easier to visualize if the successful campaigns are listed first. The pivot table appears as displayed Figure 7 below. 
 
 ![image](https://user-images.githubusercontent.com/94234511/143690653-f4fecb7f-1683-4d73-9182-5934d6216eaf.png)
+
+ *Figure 7: Pivot Table: Theatre Outcomes by Launch Date*
 
 ####   *Create a line chart*
 A line chart was created to visualize the data and placed next to the pivot table on the same worksheet. The title ‘Theatre Outcomes by Launch Date” was added to the chart and the pivot table fields were hidden.  After a few finishing touches, the line chart will appear as shown in Figure 8. 
 
 ![image](https://user-images.githubusercontent.com/94234511/143690686-5682ff5e-bc9b-49ce-8f35-15ab32f556fb.png)
 
-    [^Figure 8: Line Chart - Theatre Outcomes by Launch Date]
+    *Figure 8: Line Chart - Theatre Outcomes by Launch Date*
     
 If Louise is looking to compare outcomes for other types of fundraising campaigns this would be a quick way to provide additional analysis without creating a new pivot table.  Similarly, Louise campaign outcomes could be filtered by other date ranges to determine if there have been trends in campaigns over time.  
 ###   **Analysis of Outcomes Based on Goals**
@@ -59,7 +62,7 @@ Given the speed of Louise’s fundraising success, it may be interesting to see 
 A new worksheet was added and the sheet labeled Outcomes Based on Goals.  A series of ranges was defined and added to column A as illustrated in Figure 9 below.  
 ![image](https://user-images.githubusercontent.com/94234511/143690806-63fbfa2a-3de0-48ae-a46f-7b9703ee4206.png)
 
-    [Figure 9: A series of ranges of goal amounts]
+    *Figure 9: A series of ranges of goal amounts*
     
 Expand the table by creating header rows in cells B1 to D1 containing the values “Number Successful”, “Number Failed”, Number Canceled”.  Since the fundraising goal is expected to be based on financial need for each campaign event, the data for this analysis will be limited to the subcategory “plays”.   
 
@@ -111,25 +114,28 @@ Percentage Canceled =  Number Canceled/Total Projects
 
 ![image](https://user-images.githubusercontent.com/94234511/143691220-77578a31-f048-463e-9435-5aa048d700ca.png)
 
-    [^Figure 10: Table: Outcomes Based on Goals]
+    *Figure 10: Table: Outcomes Based on Goals*
     
 ####   *Create Line Chart – Outcomes by Goals*
 To visualize the outcomes for each goal range. Insert a line chart where the goal ranges are on the horizontal axis and percentage is the y axis.  Label the chart Outcomes Based on Goals.  Hide the columns or remove the columns from the data series for number successful, number failed, number canceled and total projects.  Move the legend to the bottom and extend the graph to allow the reader to see the values along the x axis. 
 ![image](https://user-images.githubusercontent.com/94234511/143691264-fcdd3bf8-ba3a-4b98-8753-a4ea4c1ed7b6.png)
 
-[^Figure 11: Line chart - Outcomes Based on Goals]
+     *Figure 11: Line chart - Outcomes Based on Goals*
 
 ## **Results**
 
 ### *Theater outcomes based on Launch Date*
 Conculsion 1: Based on the percentage of successful campaigns, the best time of year to launch a theatre fundraising campaign is during the early summer, from the months of May through July.  Conversely, theater campaigns are least likely to be successful from November through January, with the highest number of canceled campaigns in January. 
-Conclusion 2: From 2009 to 2017, none of the theater fundraising events launched in the month of October were canceled. 
+Conclusion 2: From 2009 to 2017, none of the theater fundraising events launched in the month of October were canceled.
+
 ### *Outcomes based on Goals*
 The most successful campaigns are those with goals <$5000.  Although there were a small # of successful campaigns with goals between 35,000 and 45,000, the total number of campaigns in this goal range is very small, n=9 and may not be a reliable indicator of future performance. 
+
 ### *Limitations of the Dataset*
 Data file is large in size and may not be easily shared, tabs must be removed and the file compressed prior to sharing with others. 
 
-Additionally, the quality and eveness of the base data varies based on the data type.  For example, campaign durations vary from a couple of weeks to several months.  There are 15 countries identified but each country is not equally represented, the majority of the data originates from Great Britan (GB).  The data has been collected over 11 years, the # of theatre campaign events increased significantly in recent years.  
+Additionally, the quality and eveness of the base data varies based on the data type.  For example, campaign durations vary from a couple of weeks to several months.  There are 15 countries identified but each country is not equally represented, the majority of the data originates from Great Britan (GB).  The data has been collected over 11 years, the # of theatre campaign events increased significantly in recent years. 
+
 ### *Other Possible Tables or Graphs*
 Other analysis may be useful in understanding how theater fundraising campaigns have been successful in the past.  Analysis of the outcomes based on the # of backers may be used to determine if theatre campaigns are support by campaigns with large numbers of backers are more successful if there are a few deep pockets contributors. This analysis should include a summary of campaigns that exceeded the fundraising goals.  
 
