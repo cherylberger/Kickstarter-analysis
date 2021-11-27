@@ -101,6 +101,7 @@ Total Projects (Cell E2):
     
 #### *Calculate the Percentage of each Outcome*
 For each goal range, calculate the percentage of successful, failed and canceled campaigns.  The percentage can be calculated using the simple formula below and copying to all rows in the range indicated in Example 3 below
+
 **Example 3** 
 
 Percentage Successful = Number Successful/Total Projects.  
@@ -117,26 +118,31 @@ Percentage Canceled =  Number Canceled/Total Projects
    *Figure 10: Table: Outcomes Based on Goals*
     
 ####   *Create Line Chart – Outcomes by Goals*
-To visualize the outcomes for each goal range. Insert a line chart where the goal ranges are on the horizontal axis and percentage is the y axis.  Label the chart Outcomes Based on Goals.  Hide the columns or remove the columns from the data series for number successful, number failed, number canceled and total projects.  Move the legend to the bottom and extend the graph to allow the reader to see the values along the x axis. 
+To visualize the outcomes for each goal range. Insert a line chart where the goal ranges are on the horizontal axis and percentage is the y axis.  Label the chart Outcomes Based on Goals.  Hide the columns or remove the columns from the data series for number successful, number failed, number canceled and total projects.  Move the legend to the bottom and extend the graph to allow the reader to see the values along the x axis.
+
 ![image](https://user-images.githubusercontent.com/94234511/143691264-fcdd3bf8-ba3a-4b98-8753-a4ea4c1ed7b6.png)
 
-    *Figure 11: Line chart - Outcomes Based on Goals*
+   *Figure 11: Line chart - Outcomes Based on Goals*
 
 ## **Results**
 
 ### *Theater outcomes based on Launch Date*
-Conculsion 1: Based on the percentage of successful campaigns, the best time of year to launch a theatre fundraising campaign is during the early summer, from the months of May through July.  Conversely, theater campaigns are least likely to be successful from November through January, with the highest number of canceled campaigns in January. 
-Conclusion 2: From 2009 to 2017, none of the theater fundraising events launched in the month of October were canceled.
+**Conculsion 1:** Based on the percentage of successful campaigns, the best time of year to launch a theatre fundraising campaign is during the early summer, from the months of May through July.  Conversely, theater campaigns are least likely to be successful from November through January, with the highest number of canceled campaigns in January. 
+**Conclusion 2:** From 2009 to 2017, none of the theater fundraising events launched in the month of October were canceled.
 
 ### *Outcomes based on Goals*
-The most successful campaigns are those with goals <$5000.  Although there were a small # of successful campaigns with goals between 35,000 and 45,000, the total number of campaigns in this goal range is very small, n=9 and may not be a reliable indicator of future performance. 
+**Conclusion** The most successful campaigns are those with goals <$5000.  Although there were a small # of successful campaigns with goals between 35,000 and 45,000, the total number of campaigns in this goal range is very small, n=9 and may not be a reliable indicator of future performance. 
 
 ### *Limitations of the Dataset*
-Data file is large in size and may not be easily shared, tabs must be removed and the file compressed prior to sharing with others. 
+*Data file size
+The datafile 'Kickstarters.xlsx' is large in size and may not be easily shared over common communication tools, tabs must be removed and the file compressed prior to sharing with others. When performing anaylysis, the analyst must keep an original copy of the data file was retained in the event of accidental keystrokes that could change or delete data.  I encountered this challenge when I made a paste error in the outcomes column, changing all data to failed.  Also, it is importatnt to remove filters from columns when starting a new analysis or visualization activitiy.  During Deliverable 2, I left a filter on subcategory column and was unable to 
 
-Additionally, the quality and eveness of the base data varies based on the data type.  For example, campaign durations vary from a couple of weeks to several months.  There are 15 countries identified but each country is not equally represented, the majority of the data originates from Great Britan (GB).  The data has been collected over 11 years, the # of theatre campaign events increased significantly in recent years. 
+*Eveness of the base data
+Additionally, the quality and eveness of the base data varies based on the data field.  For example, campaign durations ranged from a couple of weeks to several months, success rates may be influenced by the duration of the campaign.  There are 15 countries identified but each country is not equally represented, the majority of the data originates from Great Britan (GB).  The data has been collected over 11 years, the # of theatre campaign events increased significantly in recent years. 
 
 ### *Other Possible Tables or Graphs*
-Other analysis may be useful in understanding how theater fundraising campaigns have been successful in the past.  Analysis of the outcomes based on the # of backers may be used to determine if theatre campaigns are support by campaigns with large numbers of backers are more successful if there are a few deep pockets contributors. This analysis should include a summary of campaigns that exceeded the fundraising goals.  
+Analysis of the outcomes based on the # of backers may be used to determine if theater campaigns are support by campaigns with large numbers of backers are more successful or if those with a few deep pockets contributors are able to meet goals. This analysis could be expanded by grouping campaigns by launch month or launch duration to determine if there are any relationships to time of year or total campaign length.  This analysis may also include a summary of campaigns that exceeded the fundraising goals.  
 
-Demographics are often useful analysis tools.  The information provided does not indicate if the play *Fever* will be held in just one country or multiple countries.   
+Similarly, popularity of the campaign could contribute to success rate.  A comparison of the outcomes based on Peoples choice within each goal range may be a useful in understanding the success rate.  
+
+Finally, the demographics associated with the dataset are often useful variables for analysis.  Although the information provided does not indicate if the play *Fever* will be a national or world-wide event, it may be useful to analyze which countries had the highest successful outcomes and plan to host more fundraising campaigns for similar categories of events.    
