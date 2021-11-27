@@ -65,10 +65,15 @@ Expand the table by creating header rows in cells B1 to D1 containing the values
 
 ####   *Filter the data using COUNTIF statements*
 Use COUNTIFS to filter the data in the Kickstart worksheet for each goal range, campaign outcome for the subcategory of “Plays”.   The code in example 1 below illustrates the use of Countifs statements to count data that meets multiple conditions.  For the Kickstarter data in this analysis, “outcome” is the only variable, the value for goal (</=$1000) and subcategory “Plays” does not change across the row. 
+
 **Example 1**
-Number Successful (Cell B2):  
+
+Number Successful (Cell B2):
+
 =COUNTIFS(Kickstarter!$D:$D, "<=1000", Kickstarter!$F:$F,"successful", Kickstarter!$O:$O,"plays")
 Number Failed (Cell C2):
+
 =COUNTIFS(Kickstarter!$D:$D, "<=1000", Kickstarter!$F:$F,"failed", Kickstarter!$O:$O,"plays")
 Number Canceled (Cell D2): 
+
 =COUNTIFS(Kickstarter!$D:$D, "<=1000", Kickstarter!$F:$F,"canceled", Kickstarter!$O:$O,"plays")
