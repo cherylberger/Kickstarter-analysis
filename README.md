@@ -1,11 +1,11 @@
 # **An Analysis of Kickstarter Campaigns for Louise**
 
 ## **Overview**
-   The purpose of the analysis was to provide Louise with more information on how to manage her fundraising campaign for the play Fever.  She has come close to reaching her goal in a short amount of time.  We can use information from ‘Kickstarter’, a global dataset detailing the outcomes of various fundraising campaigns from 2009 to 2017, to analyze outcomes of previous campaigns.  These data will be used to visualize the success of campaigns in relation to their launch dates during the calendar year and determine if there are any relationships between the outcome and fundraising goals.  
+   The purpose of the analysis was to provide Louise with more information on how to manage her fundraising campaign for the play *Fever*.  She has come close to reaching her goal in a short amount of time.  We can use information from ‘Kickstarter’, a global dataset detailing the outcomes of various fundraising campaigns from 2009 to 2017, to analyze outcomes of previous campaigns.  These data will be used to visualize the success of campaigns in relation to their launch dates during the calendar year and determine if there are any relationships between the outcome and fundraising goals.  
 ## **Analysis and Challenges**
-###  **Analysis of Theater Campaign Outcomes Based on Launch Date**
+   ### **Analysis of Theater Campaign Outcomes Based on Launch Date**
 
-   ####   *Add a new column for the Year & populate the table using Date function*
+      ####   *Add a new column for the Year & populate the table using Date function*
    To better understand the outcome of various campaigns by launch date, we will analyze the data for trends in campaign outcomes over time.  First, the original dataset was copied and the new file was saved as ‘Kickstarter_Challenge.xlsx’.  Using the Kickstarter dataset, add a header row titled “Years” to a blank column (Column U).  Calculate the year the campaign launched from the ‘Date Created Conversion’ column (Column S) using the Year function ‘YEAR ()’ in Excel. Set the formula for cells U2 as follows = YEAR(S2) and paste this formula to all rows in the dataset as Illustrated in Figure 1. The year of launch is displayed in the column for each campaign. 
 
 ![image](https://user-images.githubusercontent.com/94234511/143689735-a4c2200b-4bb4-47cc-a871-b61e05f0ef51.png)
@@ -127,8 +127,10 @@ Conclusion 2: From 2009 to 2017, none of the theater fundraising events launched
 ### *Outcomes based on Goals*
 The most successful campaigns are those with goals <$5000.  Although there were a small # of successful campaigns with goals between 35,000 and 45,000, the total number of campaigns in this goal range is very small, n=9 and may not be a reliable indicator of future performance. 
 ### *Limitations of the Dataset*
-Data file is large in size and may not be easily shared, tabs must be removed and the file compressed prior to sharing with others
+Data file is large in size and may not be easily shared, tabs must be removed and the file compressed prior to sharing with others. 
+
 Additionally, the quality and eveness of the base data varies based on the data type.  For example, campaign durations vary from a couple of weeks to several months.  There are 15 countries identified but each country is not equally represented, the majority of the data originates from Great Britan (GB).  The data has been collected over 11 years, the # of theatre campaign events increased significantly in recent years.  
 ### *Other Possible Tables or Graphs*
-Other analysis may be useful in understanding how theater fundraising campaigns have been successful in the past.  Analysis of the outcomes based on the # of backers may be used to determine if theatre campaigns are support by campaigns with large numbers of backers are more successful if there are a few deep pockets contributors.   This analysis should include a summary of campaigns that exceeded the fundraising goals.  
-Demographics are often useful analysis tools.  The information provided does not indicate if the play Fever will be held in just one country or multiple countries.   
+Other analysis may be useful in understanding how theater fundraising campaigns have been successful in the past.  Analysis of the outcomes based on the # of backers may be used to determine if theatre campaigns are support by campaigns with large numbers of backers are more successful if there are a few deep pockets contributors. This analysis should include a summary of campaigns that exceeded the fundraising goals.  
+
+Demographics are often useful analysis tools.  The information provided does not indicate if the play *Fever* will be held in just one country or multiple countries.   
