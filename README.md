@@ -31,3 +31,17 @@ To calculate the sum of each outcome by launch date, add the “outcomes filed t
     [^note:   Figure 4: Pivot table Outcomes by Year]
     
 ####  *Set grouping and format the display of data* 
+The data in the rows is grouped by year and then by quarter which may be useful for trending historical campaign performance.  However, to understand if the launch date impacts the ability of the campaign to be success, this grouping is not needed.  The ‘Quarters’ and ‘years2’ fields are removed from the pivot chart area for Rows.   The rows now reflect the month of the year the campaign was launched and the total count of successful, canceled, and failed campaign outcomes are displayed as illustrated in Figure 5 below.
+![image](https://user-images.githubusercontent.com/94234511/143690560-50a6b364-653a-4986-90d3-c72a17c7e75b.png)
+
+    [^note: Figure 5: Pivot table: Outcomes by Month
+####   *Add Filters to the Pivot Table*
+Fundraising outcomes similar to the Fever play campaign are of primary interest to Louise.  The pivot table generated so far contains all campaign types and outcomes.  From the Kickstarter file we can see that plays are a Subcategory of a broader Parent group of theatre campaigns.  After adding a filter to the pivot table, we can compare outcomes for only the “theater” parent category.  Add an additional filter for “Years”, this may be a useful tool for visualizing the results of smaller date ranges.  After adding both filters to the pivot table,  one for parent category and the other for “Years”, a drop-down menu can be seen in the Pivot table as illustrated in Figure 6 below. 
+![image](https://user-images.githubusercontent.com/94234511/143690612-d7ae44dd-be5a-4fe4-a8dd-358f4b040d80.png)
+
+   [^Figure 6: Filtered Pivot Table]
+   
+Finally, filter the columns to remove “live” campaigns and sort the column in descending order.  Now, the data for successful campaign outcomes are displayed first in each row.  When the number of successful campaigns is compared to the total, most outcomes were successful. This data will be easier to visualize if the successful campaigns are listed first. The pivot table appears as displayed Figure 7 below. 
+
+![image](https://user-images.githubusercontent.com/94234511/143690653-f4fecb7f-1683-4d73-9182-5934d6216eaf.png)
+
