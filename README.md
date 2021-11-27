@@ -49,7 +49,7 @@ Finally, filter the columns to remove “live” campaigns and sort the column i
  *Figure 7: Pivot Table: Theatre Outcomes by Launch Date*
 
 ####   *Create a line chart*
-A line chart was created to visualize the data and placed next to the pivot table on the same worksheet. The title [**Theatre Outcomes by Launch Date** (https://github.com/cherylberger/Kickstarter-analysis/blob/main/Theater_Outcomes_Vs_Launch.png)] was added to the chart and the pivot table fields were hidden.  After a few finishing touches, the line chart will appear as shown in Figure 8. 
+A line chart was created to visualize the data and placed next to the pivot table on the same worksheet. The title [**Theatre Outcomes by Launch Date**]  (https://github.com/cherylberger/Kickstarter-analysis/blob/main/Theater_Outcomes_Vs_Launch.png) was added to the chart and the pivot table fields were hidden.  After a few finishing touches, the line chart will appear as shown in Figure 8. 
 
 ![image](https://github.com/cherylberger/Kickstarter-analysis/blob/main/Theater_Outcomes_Vs_Launch.png)
 
@@ -118,7 +118,7 @@ Percentage Canceled =  Number Canceled/Total Projects
    *Figure 10: Table: Outcomes Based on Goals*
     
 ####   *Create Line Chart – Outcomes by Goals*
-To visualize the outcomes for each goal range. Insert a line chart where the goal ranges are on the horizontal axis and percentage is the y axis.  Label the chart [**Outcomes Based on Goals**(https://github.com/cherylberger/Kickstarter-analysis/blob/main/Outcomes_vs_Goals.png.)]  Hide the columns or remove the columns from the data series for number successful, number failed, number canceled and total projects.  Move the legend to the bottom and extend the graph to allow the reader to see the values along the x axis.
+To visualize the outcomes for each goal range. Insert a line chart where the goal ranges are on the horizontal axis and percentage is the y axis.  Label the chart [**Outcomes Based on Goals**](https://github.com/cherylberger/Kickstarter-analysis/blob/main/Outcomes_vs_Goals.png.)  Hide the columns or remove the columns from the data series for number successful, number failed, number canceled and total projects.  Move the legend to the bottom and extend the graph to allow the reader to see the values along the x axis.
 
 ![image](https://github.com/cherylberger/Kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
