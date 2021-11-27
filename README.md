@@ -53,7 +53,7 @@ A line chart was created to visualize the data and placed next to the pivot tabl
 
 ![image](https://user-images.githubusercontent.com/94234511/143690686-5682ff5e-bc9b-49ce-8f35-15ab32f556fb.png)
 
-    *Figure 8: Line Chart - Theatre Outcomes by Launch Date*
+   *Figure 8: Line Chart - Theatre Outcomes by Launch Date*
     
 If Louise is looking to compare outcomes for other types of fundraising campaigns this would be a quick way to provide additional analysis without creating a new pivot table.  Similarly, Louise campaign outcomes could be filtered by other date ranges to determine if there have been trends in campaigns over time.  
 ###   **Analysis of Outcomes Based on Goals**
