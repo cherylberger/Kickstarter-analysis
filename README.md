@@ -120,7 +120,7 @@ Percentage Canceled =  Number Canceled/Total Projects
 ####   *Create Line Chart – Outcomes by Goals*
 To visualize the outcomes for each goal range. Insert a line chart where the goal ranges are on the horizontal axis and percentage is the y axis.  Label the chart Outcomes Based on Goals.  Hide the columns or remove the columns from the data series for number successful, number failed, number canceled and total projects.  Move the legend to the bottom and extend the graph to allow the reader to see the values along the x axis.
 
-![image](https://user-images.githubusercontent.com/94234511/143691264-fcdd3bf8-ba3a-4b98-8753-a4ea4c1ed7b6.png)
+![image](https://github.com/cherylberger/Kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
    *Figure 11: Line chart - Outcomes Based on Goals*
 
