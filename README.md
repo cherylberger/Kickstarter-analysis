@@ -51,7 +51,7 @@ Finally, filter the columns to remove “live” campaigns and sort the column i
 ####   *Create a line chart*
 A line chart was created to visualize the data and placed next to the pivot table on the same worksheet. The title ‘Theatre Outcomes by Launch Date” was added to the chart and the pivot table fields were hidden.  After a few finishing touches, the line chart will appear as shown in Figure 8. 
 
-![image](https://user-images.githubusercontent.com/94234511/143690686-5682ff5e-bc9b-49ce-8f35-15ab32f556fb.png)
+![image](https://github.com/cherylberger/Kickstarter-analysis/blob/main/Theater_Outcomes_Vs_Launch.png)
 
    *Figure 8: Line Chart - Theatre Outcomes by Launch Date*
     
