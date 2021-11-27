@@ -95,3 +95,40 @@ Calculate the total number of campaigns (projects) for each goal range.  Label t
 
 Total Projects (Cell E2):
     **=SUM(B2:D2)**
+    
+#### *Calculate the Percentage of each Outcome*
+For each goal range, calculate the percentage of successful, failed and canceled campaigns.  The percentage can be calculated using the simple formula below and copying to all rows in the range indicated in Example 3 below
+**Example 3** 
+
+Percentage Successful = Number Successful/Total Projects.  
+=(B2/E2) in Cells F2:F13
+
+Percentage Failed = Number Failed/Total Projects 
+=(C2/E2) in Cell G2:G13
+
+Percentage Canceled =  Number Canceled/Total Projects 
+=(D2/E2) in Cell H2:H13
+
+![image](https://user-images.githubusercontent.com/94234511/143691220-77578a31-f048-463e-9435-5aa048d700ca.png)
+
+    [^Figure 10: Table: Outcomes Based on Goals]
+    
+####   *Create Line Chart – Outcomes by Goals*
+To visualize the outcomes for each goal range. Insert a line chart where the goal ranges are on the horizontal axis and percentage is the y axis.  Label the chart Outcomes Based on Goals.  Hide the columns or remove the columns from the data series for number successful, number failed, number canceled and total projects.  Move the legend to the bottom and extend the graph to allow the reader to see the values along the x axis. 
+![image](https://user-images.githubusercontent.com/94234511/143691264-fcdd3bf8-ba3a-4b98-8753-a4ea4c1ed7b6.png)
+
+[^Figure 11: Line chart - Outcomes Based on Goals]
+
+## **Results**
+
+### *Theater outcomes based on Launch Date*
+Conculsion 1: Based on the percentage of successful campaigns, the best time of year to launch a theatre fundraising campaign is during the early summer, from the months of May through July.  Conversely, theater campaigns are least likely to be successful from November through January, with the highest number of canceled campaigns in January. 
+Conclusion 2: From 2009 to 2017, none of the theater fundraising events launched in the month of October were canceled. 
+### *Outcomes based on Goals*
+The most successful campaigns are those with goals <$5000.  Although there were a small # of successful campaigns with goals between 35,000 and 45,000, the total number of campaigns in this goal range is very small, n=9 and may not be a reliable indicator of future performance. 
+### *Limitations of the Dataset*
+Data file is large in size and may not be easily shared, tabs must be removed and the file compressed prior to sharing with others
+Additionally, the quality and eveness of the base data varies based on the data type.  For example, campaign durations vary from a couple of weeks to several months.  There are 15 countries identified but each country is not equally represented, the majority of the data originates from Great Britan (GB).  The data has been collected over 11 years, the # of theatre campaign events increased significantly in recent years.  
+### *Other Possible Tables or Graphs*
+Other analysis may be useful in understanding how theater fundraising campaigns have been successful in the past.  Analysis of the outcomes based on the # of backers may be used to determine if theatre campaigns are support by campaigns with large numbers of backers are more successful if there are a few deep pockets contributors.   This analysis should include a summary of campaigns that exceeded the fundraising goals.  
+Demographics are often useful analysis tools.  The information provided does not indicate if the play Fever will be held in just one country or multiple countries.   
