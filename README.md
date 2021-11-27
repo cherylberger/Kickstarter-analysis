@@ -45,3 +45,12 @@ Finally, filter the columns to remove “live” campaigns and sort the column i
 
 ![image](https://user-images.githubusercontent.com/94234511/143690653-f4fecb7f-1683-4d73-9182-5934d6216eaf.png)
 
+####   *Create a line chart*
+A line chart was created to visualize the data and placed next to the pivot table on the same worksheet. The title ‘Theatre Outcomes by Launch Date” was added to the chart and the pivot table fields were hidden.  After a few finishing touches, the line chart will appear as shown in Figure 8. 
+
+![image](https://user-images.githubusercontent.com/94234511/143690686-5682ff5e-bc9b-49ce-8f35-15ab32f556fb.png)
+    [^Figure 8: Line Chart - Theatre Outcomes by Launch Date]
+    
+If Louise is looking to compare outcomes for other types of fundraising campaigns this would be a quick way to provide additional analysis without creating a new pivot table.  Similarly, Louise campaign outcomes could be filtered by other date ranges to determine if there have been trends in campaigns over time.  
+###   **Analysis of Outcomes Based on Goals**
+Given the speed of Louise’s fundraising success, it may be interesting to see if a relationship between the fiscal goal and campaign outcome exists.  From the Kickstarter data file, the goal amount for each campaign can be seen in column D, the values range from $1.00 to $100,000.00.  This is a large range of values that could be grouped to summarize and make the data easier to visualize and interpret.  
