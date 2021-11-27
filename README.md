@@ -1,8 +1,10 @@
 # **An Analysis of Kickstarter Campaigns for Louise**
+
 ## **Overview**
 The purpose of the analysis was to provide Louise with more information on how to manage her fundraising campaign for the play Fever.  She has come close to reaching her goal in a short amount of time.  We can use information from ‘Kickstarter’, a global dataset detailing the outcomes of various fundraising campaigns from 2009 to 2017, to analyze outcomes of previous campaigns.  These data will be used to visualize the success of campaigns in relation to their launch dates during the calendar year and determine if there are any relationships between the outcome and fundraising goals.  
 ## **Analysis and Challenges**
 ###  **Analysis of Theater Campaign Outcomes Based on Launch Date**
+
 ####   *Add a new column for the Year & populate the table using Date function*
 To better understand the outcome of various campaigns by launch date, we will analyze the data for trends in campaign outcomes over time.  First, the original dataset was copied and the new file was saved as ‘Kickstarter_Challenge.xlsx’.  Using the Kickstarter dataset, add a header row titled “Years” to a blank column (Column U).  Calculate the year the campaign launched from the ‘Date Created Conversion’ column (Column S) using the Year function ‘YEAR ()’ in Excel. Set the formula for cells U2 as follows = YEAR(S2) and paste this formula to all rows in the dataset as Illustrated in Figure 1. The year of launch is displayed in the column for each campaign. 
 
@@ -25,6 +27,7 @@ Add the pivot table to a new worksheet titled ‘Theater Outcomes by Launch Date
 To calculate the sum of each outcome by launch date, add the “outcomes filed to the Values area.  The sum of each row and column are automatically calculated and added to the data table.   From the table, we can determine the total number of live, successful, failed and cancelled for all 4114 campaigns from 2009 to 2017.   The summed data can be seen in the upper left of Figure 4.
 
 ![image](https://user-images.githubusercontent.com/94234511/143690120-581b411c-42f0-4726-a9dd-e167f83c10cc.png)
+
     [^note:   Figure 4: Pivot table Outcomes by Year]
     
 ####  *Set grouping and format the display of data* 
