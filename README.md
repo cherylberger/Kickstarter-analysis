@@ -132,18 +132,18 @@ To visualize the outcomes for each goal range. Insert a line chart where the goa
 **Conclusion 2:** From 2009 to 2017, none of the theater fundraising events launched in the month of October were canceled.
 
 ### *Outcomes based on Goals*
-**Conclusion** The most successful campaigns are those with goals <$5000.  Although there were a small # of successful campaigns with goals between 35,000 and 45,000, the total number of campaigns in this goal range is very small, n=9 and may not be a reliable indicator of future performance. 
+**Conclusion:** The most successful campaigns are those with goals <$5000.  Although there were a small # of successful campaigns with goals between 35,000 and 45,000, the total number of campaigns in this goal range is very small, n=9 and may not be a reliable indicator of future performance. 
 
 ### *Limitations of the Dataset*
-** *Data file size**
+* *Data file size*
 The datafile 'Kickstarters.xlsx' is large in size and may not be easily shared over common communication tools, tabs must be removed and the file compressed prior to sharing with others. When performing anaylysis, the analyst must keep an original copy of the data file was retained in the event of accidental keystrokes that could change or delete data.  I encountered this challenge when I made a paste error in the outcomes column, changing all data to failed.  Also, it is importatnt to remove filters from columns when starting a new analysis or visualization activitiy.  During Deliverable 2, I left a filter on subcategory column and was unable to 
 
-** *Eveness of the base data**
+* *Eveness of the base data*
 Additionally, the quality and eveness of the base data varies based on the data field.  For example, campaign durations ranged from a couple of weeks to several months, success rates may be influenced by the duration of the campaign.  There are 15 countries identified but each country is not equally represented, the majority of the data originates from Great Britan (GB).  The data has been collected over 11 years, the # of theatre campaign events increased significantly in recent years. 
 
 ### *Other Possible Tables or Graphs*
-Analysis of the outcomes based on the # of backers may be used to determine if theater campaigns are support by campaigns with large numbers of backers are more successful or if those with a few deep pockets contributors are able to meet goals. This analysis could be expanded by grouping campaigns by launch month or launch duration to determine if there are any relationships to time of year or total campaign length.  This analysis may also include a summary of campaigns that exceeded the fundraising goals.  
+*Analysis of the outcomes based on the # of backers may be used to determine if theater campaigns are support by campaigns with large numbers of backers are more successful or if those with a few deep pockets contributors are able to meet goals. This analysis could be expanded by grouping campaigns by launch month or launch duration to determine if there are any relationships to time of year or total campaign length.  This analysis may also include a summary of campaigns that exceeded the fundraising goals.  
 
-Similarly, popularity of the campaign could contribute to success rate.  A comparison of the outcomes based on Peoples choice within each goal range may be a useful in understanding the success rate.  
+*Similarly, popularity of the campaign could contribute to success rate.  A comparison of the outcomes based on Peoples choice within each goal range may be a useful in understanding the success rate.  
 
-Finally, the demographics associated with the dataset are often useful variables for analysis.  Although the information provided does not indicate if the play *Fever* will be a national or world-wide event, it may be useful to analyze which countries had the highest successful outcomes and plan to host more fundraising campaigns for similar categories of events.    
+*Finally, the demographics associated with the dataset are often useful variables for analysis.  Although the information provided does not indicate if the play *Fever* will be a national or world-wide event, it may be useful to analyze which countries had the highest successful outcomes and plan to host more fundraising campaigns for similar categories of events.    
